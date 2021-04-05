@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+</head>
+<body>
+    <section class="flex">
+        <h1 id="header">Gerador de tabelas de Bingo</h1>
+        <div class="content">
+            <table class="table" id="minhaTabelaBingo">             
+                <tr>
+                    <th class="orange">B</th>
+                    <th class="orange">I</th>
+                    <th class="orange">N</th>
+                    <th class="orange">G</th>
+                    <th class="orange">O</th>
+                </tr>
+            </table>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="startCardBingo()">Criar nova tabela</button>
+        <button type="button" class="btn btn-secundary" onclick="resetCardBingo()">Limpar cartela do Bingo </button>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
